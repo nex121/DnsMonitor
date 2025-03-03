@@ -5,7 +5,16 @@
 [![Python 3.7+](https://img.shields.io/badge/Python-3.7%2B-blue.svg)](https://www.python.org/)
 [![Windows](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)](https://www.microsoft.com/windows)
 
-实时监控系统DNS请求，识别发起请求的进程信息，支持关键字匹配自动退出功能。
+Windows版实时监控系统DNS请求，识别发起请求的进程信息，支持关键字匹配自动退出功能。
+
+Linux版DNS请求监控工具请看这位仁兄文章：
+
+https://zgao.top/%e5%bc%80%e5%8f%91ko%e5%86%85%e6%a0%b8%e6%a8%a1%e5%9d%97%ef%bc%8c%e6%97%a0%e4%be%9d%e8%b5%96%e5%ae%9e%e7%8e%b0%e7%9b%91%e6%8e%a7dns%e8%af%b7%e6%b1%82%e8%bf%9b%e7%a8%8b/
+
+一键使用
+```bash
+wget https://zgao.top/download/dns_monitor.tgz && tar xvf dns_monitor.tgz && make && insmod dns_monitor.ko && dmesg -Tw
+```
 
 ## 功能特性
 
